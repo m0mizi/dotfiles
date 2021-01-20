@@ -1,4 +1,7 @@
 " setting
+autocmd ColorScheme * highlight Normal ctermbg=none
+autocmd ColorScheme * highlight LineNr ctermbg=none
+colorscheme tender
 "文字コードをUFT-8に設定
 set fenc=utf-8
 " バックアップファイルを作らない
@@ -11,7 +14,6 @@ set autoread
 set hidden
 " 入力中のコマンドをステータスに表示する
 set showcmd
-
 
 " 見た目系
 " 行番号を表示
